@@ -10,13 +10,13 @@ React-Native library which allows you to control device brightness
 ## Installation
 
 ```sh
-npm install @reeq/react-native-device-brightness
+npm install @rjcm/react-native-device-brightness
 ```
 
 or
 
 ```sh
-yarn add @reeq/react-native-device-brightness
+yarn add @rjcm/react-native-device-brightness
 ```
 
 and
@@ -34,7 +34,7 @@ import {
     getBrightnessLevel,
     useDeviceBrightness,
     resetBrightness,
-} from '@reeq/react-native-device-brightness';
+} from '@rjcm/react-native-device-brightness';
 
 /**
  * setting brightness a required level
@@ -56,7 +56,7 @@ resetBrightness();
  * @param level: required
  * @param resetOnUnmount: optional. Default is false.
  */
- 
+
 useDeviceBrightness(level: number, resetOnUnmount?: boolean);
 ```
 
@@ -73,4 +73,7 @@ MIT
 ---
 
 Made with [create-react-native-library](https://github.com/callstack/react-native-builder-bob)
+
+```
+
 ```

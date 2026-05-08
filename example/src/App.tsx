@@ -5,7 +5,7 @@ import {
   resetBrightness,
   setBrightnessLevel,
   useDeviceBrightness,
-} from '@reeq/react-native-device-brightness';
+} from '@rjcm/react-native-device-brightness';
 import { Alert, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 
 const UnmountBrightnessComponent = () => {

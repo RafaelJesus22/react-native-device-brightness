@@ -2,7 +2,7 @@
   "compilerOptions": {
     "rootDir": ".",
     "paths": {
-      "@reeq/react-native-device-brightness": ["./src/index"]
+      "@rjcm/react-native-device-brightness": ["./src/index"]
     },
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,
