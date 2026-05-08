@@ -1,5 +1,5 @@
 {
-  "name": "@reeq/react-native-device-brightness",
+  "name": "@rjcm/react-native-device-brightness",
   "version": "2.0.2",
   "description": "React-Native library which allows you to change devices brightness level",
   "main": "./lib/module/index.js",
@@ -47,14 +47,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/reeq-dev/react-native-device-brightness.git"
+    "url": "git+https://github.com/RafaelJesus22/react-native-device-brightness.git"
   },
-  "author": "Ganas Alexander <nooolie@gmail.com> (https://github.com/reeq-dev)",
+  "author": "Rafael Jesus <rafaeljesus.tsx@gmail.com> (https://github.com/RafaelJesus22)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/reeq-dev/react-native-device-brightness/issues"
+    "url": "https://github.com/RafaelJesus22/react-native-device-brightness/issues"
   },
-  "homepage": "https://github.com/reeq-dev/react-native-device-brightness#readme",
+  "homepage": "https://github.com/RafaelJesus22/react-native-device-brightness#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
