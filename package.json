@@ -1,12 +1,16 @@
 {
   "name": "@rjcm/react-native-device-brightness",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "React-Native library which allows you to change devices brightness level",
   "main": "./lib/module/index.js",
+  "module": "./lib/module/index.js",
+  "react-native": "./lib/module/index.js",
   "types": "./lib/typescript/src/index.d.ts",
   "exports": {
     ".": {
-      "source": "./src/index.tsx",
+      "react-native": "./lib/module/index.js",
+      "import": "./lib/module/index.js",
+      "require": "./lib/module/index.js",
       "types": "./lib/typescript/src/index.d.ts",
       "default": "./lib/module/index.js"
     },
