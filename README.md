@@ -1,3 +1,9 @@
+# DO NOT USE
+
+I am still adding/testing the features<br>
+so it is not ready to use yet and might even<br>
+break your app
+
 # react-native-device-brightness
 
 React-Native library which allows you to control device brightness
@@ -32,6 +38,7 @@ pod install
 import {
     setBrightnessLevel,
     getBrightnessLevel,
+    getSystemBrightnessLevel,
     useDeviceBrightness,
     resetBrightness,
 } from '@rjcm/react-native-device-brightness';
@@ -44,6 +51,9 @@ setBrightnessLevel(level: number);
 
 // getting brightness
 const brightness = getBrightnessLevel();
+
+// getting system brightness
+const systemBrightness = getSystemBrightnessLevel();
 
 // reseting brightness
 resetBrightness();
